@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Fonts/Montserrat/);
+}
+@font-face {
+    font-family: 'maidenly';
+    src: url(Fonts/maidenly-modesty-font/);
+}
+
+body {
+    background: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+header {
+    background: rgb(254, 253, 253);
+    width: 101.25%;
+    margin-left: -8px;
+    margin-right: -60px;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+    margin-left: -5px;
+    margin-top: -60px;
+    margin-bottom: -70px;
+}
+
+nav {
+    margin-top: 40px;
+    font-family: #5D3E2A;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    margin-top: 70px;
+    margin-left: -15px ;
+    
+}
+
+nav li {
+    display:inline-block;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.book {
+    position: absolute; left: 32%; transform: translateY(40%);}

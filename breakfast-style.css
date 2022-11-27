@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'maidenly';
+    src: url(Fonts/maidenly-modesty-font/MaidenlyModestyRegular-BWOp8.ttf);
+}
+
+@font-face {
+    font-family: 'martelbold' ;
+    src: url(Fonts/Martel_Sans/MartelSans-Bold.ttf);
+}
+
+body {
+    background: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+header {
+    background: rgb(254, 253, 253);
+    width: 101.25%;
+    margin-left: -8px;
+    margin-right: -60px;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+    margin-left: -5px;
+    margin-top: -60px;
+    margin-bottom: -70px;
+}
+
+nav {
+    margin-top: 40px;
+    font-family: #5D3E2A;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    margin-top: 70px;
+    margin-left: -15px ;
+    
+}
+
+nav li {
+    display:inline-block;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+.background{
+    margin: auto;
+    position: absolute;left: 0px;right: 0px;
+    background-image:url(imgs/background.png);
+    background-repeat: round; 
+    opacity: .40;
+    padding: 15px;
+    width: 95%;
+    height: 800px;
+    top: 23%;
+    z-index: -1;
+
+}
+
+
+
+
+
+
+
+h1 {
+    z-index: 1;
+    text-align: center;
+    font-size: 30px;
+    color: #452d1e;
+    position: relative;transform: translateY(20%);
+}
+
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.mondaybox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: relative; left: 10%; transform: translateY(30%)
+}
+
+
+
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.tuesdaybox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: absolute; left: 43%; transform: translateY(-67%)
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.wedbox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: absolute; left: 75%; transform: translateY(-67%)
+}
+
+
+h5 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.thurbox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: relative; left: 10%; transform: translateY(30%)
+}
+
+h6 {
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.fridaybox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: absolute; left: 32%; transform: translateY(-67%)
+}
+
+.saturday {
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.saturdaybox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: absolute; left: 53%; transform: translateY(-69%)
+}
+
+.sunday {
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.sundaybox {
+    color: #5D3E2A;
+    font-family: 'maidenly';
+    font-size: 30px;
+    position: relative; left: 75%; transform: translateY(-58%)
+    
+}
+
+.background2 {
+    background-position-y: bottom;
+}

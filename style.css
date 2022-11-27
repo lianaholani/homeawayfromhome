@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'BrightSunshine';
+    src: url(Fonts/better-grade-font/BetterGrade-519DV.ttf);
+}
+
+body {
+    background: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+header {
+    background: rgb(254, 253, 253);
+    width: 101.25%;
+    margin-left: -8px;
+    margin-right: -60px;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.logo {
+    float: left;
+    margin-left: -5px;
+    margin-top: -60px;
+    margin-bottom: -70px;
+}
+
+nav {
+    margin-top: 40px;
+    font-family: #5D3E2A;
+}
+
+nav ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    margin-top: 70px;
+    margin-left: -15px ;
+    
+}
+
+nav li {
+    display:inline-block;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #4d3220;
+    
+}
+
+.picture {
+    background: white;
+    position: absolute;left: 0px;right: 0px;
+    height: 475px;
+    background-image:url(imgs/Home\ Decor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.statement {
+    position: absolute;margin-left: 180px;margin-right: 180px; transform: translateY(-30%);
+    text-indent: 35px;
+    line-height: 38pt;
+    font-size: 60px;
+    font-family: 'BrightSunshine';
+    word-spacing:5px;
+    color: #533724;
+    font-weight: bold 50%;
+    
+}
+
+.style {
+    text-align: center;
+    color: #4d3220;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+
+.userimage {
+    color: #4d3220;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+.careyquote {
+    float: right;
+    position: relative;
+    left: -120px;
+}
+
+.carey {
+    float: left;
+    position: relative;
+    left: 110px;
+    bottom: -50px;
+}
+
+h2 {
+    text-align: center;
+    color: #4d3220;
+    transform: translateY(280%);
+}
+
+
+
+.michaelreview {
+    text-align: center;
+    color: #4d3220;
+    margin: auto;
+    position: relative;
+    top: 120px;
+    padding-bottom: 20%;
+}
+
+.userimage {
+    color: #4d3220;
+    float: left;
+    position: absolute;
+    left: 100px;
+}
+
+.michaelquote {
+    float: right;
+    position: relative;
+    left: -120px;
+}
+
+.michael {
+    float: left;
+    position: relative;
+    left: 110px;
+    bottom: -50px;
+}
